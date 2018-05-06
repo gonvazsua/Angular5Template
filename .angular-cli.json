@@ -19,9 +19,18 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
+        "../node_modules/bootstrap/dist/css/bootstrap.min.css",
+        "../node_modules/@fortawesome/fontawesome-free-webfonts/css/fa-brands.css",
+        "../node_modules/@fortawesome/fontawesome-free-webfonts/css/fa-regular.css",
+        "../node_modules/@fortawesome/fontawesome-free-webfonts/css/fa-solid.css",
+        "../node_modules/@fortawesome/fontawesome-free-webfonts/css/fontawesome.css",
         "styles.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "../node_modules/jquery/dist/jquery.min.js",
+        "../node_modules/popper.js/dist/popper.min.js",
+        "../node_modules/bootstrap/dist/js/bootstrap.min.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
